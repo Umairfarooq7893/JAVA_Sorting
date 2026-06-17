@@ -14,14 +14,12 @@ public class BinarySearch {
                 System.out.println("Element Found at Index " + mid);
                 return;
             }
-
             if(arr[mid] > key){
                 high = mid - 1;
             } else {
                 low = mid + 1;
             }
         }
-
         System.out.println("Element Not Found");
     }
 }
